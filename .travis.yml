@@ -8,6 +8,7 @@ script:
   - docker run -e CI=true shayim/docker-react npm run test
 
 deploy:
+  edge: true
   provider: elasticbeanstalk
   region: ap-southeast-1
   app: docker-react
