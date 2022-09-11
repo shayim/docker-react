@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Switched to New Feature </h1>
       </header>
     </div>
   )
